@@ -1,0 +1,136 @@
+.commonBg {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.workBg {
+  background-image: url("../img/work.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: top;
+  background-position: center;
+}
+
+.basicInfoBg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/aboutus/oh__img150-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: left;
+}
+
+.questionTouchBg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/aboutus/oh__img156-1-scaled.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: left;
+}
+
+.memberBg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/home.aboutUs.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: left;
+}
+
+.moreInfoBg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/aboutus/oh__img152-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: left;
+}
+
+.flagLangfoBg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/aboutus/oh__img155-1-scaled.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: left;
+}
+
+.vulunteerBg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/clipboard.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: left;
+}
+
+.aboutBg {
+  background-image: url("../img/home.aboutUs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.smallGroupBg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/home.smallgroup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: left;
+}
+
+.findBg {
+  background-image: url("../img/aboutus/oh__img158-1-scaled.jpg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: left;
+  background-position: center;
+}
+
+.GetBg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/aboutus/getIntouchBg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: left;
+  background-position: center;
+}
+
+.ContactBg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/work.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: center;
+}
+
+/* // utitilies */
+
+.child_nav:hover > ul {
+  transform: translateY(0rem);
+  opacity: 1;
+}
+
+.select + label {
+  color: #000 !important;
+  border: #000 !important;
+  display: none;
+}
+
+.select:active + label {
+  color: white !important;
+}
+
+.warningMessage {
+  visibility: hidden;
+}
+
+input:invalid + .warningMessage {
+  visibility: visible;
+}

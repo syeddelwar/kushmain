@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/components/*":["components/*"],
+            "@/styles/*":["styles/*"],
+            "@/icon/*":["node_modules/react-icons/*"],
+            "@/context/*":["context/*"],
+            "@/config/*":["config/*"],
+        }
+    }
+}
